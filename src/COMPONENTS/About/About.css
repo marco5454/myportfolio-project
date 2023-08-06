@@ -1,0 +1,75 @@
+.about-me-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("../../Images/about-bround.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-me-wrapper .title {
+  width: 100%;
+  padding: 50px;
+}
+
+.about-me-wrapper .title span {
+  background-color: #35a29f;
+}
+
+h1,
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #071952;
+}
+
+.about-me-wrapper .title h1 {
+  font-size: 3rem;
+}
+
+.about-me-wrapper .about-me {
+  width: 40%;
+  padding-top: 50px;
+}
+
+.about-me-wrapper .about-me p {
+  font-size: 1.5rem;
+  text-align: justify;
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.about-me-wrapper .positions {
+  width: 40%;
+  padding-top: 50px;
+}
+
+.about-me-wrapper .positions h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 80px;
+}
+
+.about-me-wrapper .positions span {
+  background-color: #35a29f;
+}
+
+.about-me-wrapper .download-cv {
+  width: 40%;
+  padding-bottom: 50px;
+}
+
+.about-me-wrapper .download-cv button {
+  padding: 10px;
+  border-radius: 5px;
+  color: #071952;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-me-wrapper .download-cv button:hover {
+  background-color: #35a29f;
+  padding: 15px;
+}
