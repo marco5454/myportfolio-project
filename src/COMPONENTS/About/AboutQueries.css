@@ -34,3 +34,50 @@
     padding-top: 50px;
   }
 }
+
+@media (min-width: 480px) {
+  .about-me-wrapper .title {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .about-me-wrapper .title h1 {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .about-me-wrapper .about-me {
+    width: 90%;
+    padding-top: 0px;
+  }
+
+  .about-me-wrapper .about-me p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+
+  .about-me-wrapper .positions h1 {
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 50px;
+  }
+
+  .about-me-wrapper .positions {
+    width: 90%;
+    padding-top: 50px;
+  }
+
+  .about-me-wrapper .download-cv {
+    width: 90%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+}
