@@ -1,0 +1,36 @@
+@media (max-width: 1447px) {
+  .footer-wrapper .logos {
+    width: 16%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .footer-wrapper .logos {
+    width: 25%;
+  }
+
+  .footer-wrapper .nav {
+    width: 25%;
+  }
+}
+
+@media (max-width: 647px) {
+  .footer-wrapper .logos {
+    width: 16%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .footer-wrapper .logos {
+    width: 25%;
+  }
+
+  .footer-wrapper .nav {
+    width: 38%;
+  }
+
+  .footer-wrapper .logos ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+}

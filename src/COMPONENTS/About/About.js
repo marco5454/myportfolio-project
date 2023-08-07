@@ -1,5 +1,6 @@
 import React from "react";
 import "../../COMPONENTS/About/About.css";
+import "../../COMPONENTS/About/AboutQueries.css";
 
 const Header2 = () => {
   return (
@@ -12,7 +13,7 @@ const Header2 = () => {
 
       <div className="about-me">
         <p>
-          Hi everyone! My name is Marco, and I'm an Information Technology
+          "Hi everyone! My name is Marco, and I'm an Information Technology
           Graduate from Partido State University, where I specialized in
           computer programming and the project management cycle. Currently, I
           have 2 years of professional experience as a Team Manager in the
@@ -22,7 +23,7 @@ const Header2 = () => {
           programming skills in JavaScript, focusing on REACT JS. Although I'm
           working full-time in project management, I'm passionate about
           collaboration and connecting with others who share my interests and
-          enthusiasm for productivity.
+          enthusiasm for productivity."
         </p>
       </div>
 

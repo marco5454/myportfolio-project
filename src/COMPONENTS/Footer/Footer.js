@@ -4,6 +4,7 @@ import email from "./Icons/email.png";
 import linkedin from "./Icons/linkedin.png";
 import fb from "./Icons/facebook.png";
 import phone from "./Icons/phone.png";
+import "../../COMPONENTS/Footer/FooterQueries.css";
 
 const Footer = () => {
   return (
@@ -48,6 +49,10 @@ const Footer = () => {
             <a href="/#">Contacts</a>
           </li>
         </ul>
+      </div>
+
+      <div className="last-footer">
+        <p>© 2023 Marco A. Melgar | All Rights Reserved</p>
       </div>
     </div>
   );

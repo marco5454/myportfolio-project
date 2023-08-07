@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../../Images/role-image.jpg";
 import "../../COMPONENTS/Roles/Role.css";
+import "../../COMPONENTS/Roles/RoleQueries.css";
 
 const Role = () => {
   return (
@@ -28,7 +29,9 @@ const Role = () => {
         </p>
 
         <div className="btn">
-          <button>Contact me</button>
+          <button>
+            <span>Contact me</span>
+          </button>
         </div>
       </div>
 

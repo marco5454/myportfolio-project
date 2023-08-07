@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #97feed;
 }
 
 h1,
@@ -29,7 +30,7 @@ p {
 
 .role-wrapper .my-roles-desc .overall-role h1 {
   font-size: 1.8rem;
-  line-height: 45px;
+  line-height: 40px;
 }
 
 .role-wrapper .image {
@@ -42,7 +43,6 @@ p {
 .role-wrapper img {
   width: 400px;
   height: 400px;
-  border: 1px solid #071952;
   border-radius: 50%;
 }
 
@@ -61,4 +61,9 @@ p {
   padding: 10px;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
+  background-color: #071952;
+}
+
+.role-wrapper .my-roles-desc .btn button span {
+  color: #97feed;
 }

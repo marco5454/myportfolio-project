@@ -1,5 +1,6 @@
 import React from "react";
 import "../../COMPONENTS/Nav/Nav.css";
+import "../../COMPONENTS/Nav/NavQueries.css";
 
 const Nav = () => {
   return (
