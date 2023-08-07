@@ -34,3 +34,18 @@
     height: 30px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .footer-wrapper .logos {
+    width: 35%;
+  }
+
+  .footer-wrapper .nav {
+    width: 50%;
+  }
+
+  .footer-wrapper .logos ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+}
