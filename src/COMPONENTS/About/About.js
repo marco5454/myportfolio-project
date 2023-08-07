@@ -29,19 +29,19 @@ const Header2 = () => {
 
       <div className="positions">
         <h1>
-          <span>Bachelor of Science</span> in Information Technology
+          <span>*Bachelor of Science</span> in Information Technology
         </h1>
         <h1>
-          Team <span>Manager</span> (Social Media System)
+          *Team <span>Manager</span> (Social Media System)
         </h1>
         <h1>
-          <span>Senior</span> Migration Specialist
+          *<span>Senior</span> Migration Specialist
         </h1>
         <h1>
-          Computer <span>Techncian</span> (Software)
+          *Computer <span>Techncian</span> (Software)
         </h1>
         <h1>
-          Web Developer <span>Front-End</span>
+          *Web Developer <span>Front-End</span>
         </h1>
       </div>
 
