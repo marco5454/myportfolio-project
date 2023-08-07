@@ -16,17 +16,20 @@ const Role = () => {
           </h1>
         </div>
 
-        <p>
-          At Migrasia, I hold a key leadership role with diverse
-          responsibilities, including leading investigation and case management
-          projects, managing social media presence, and overseeing client intake
-          and support. My duties also include coordinating between social media
-          support and other teams to ensure alignment across the organization. I
-          focus on strategic planning, risk management, and quality control in
-          all areas, working collaboratively to enhance Migrasia's reach,
-          impact, and efficiency, and contributing to a work environment that
-          aligns with the company's mission and values.
-        </p>
+        <div className="role-desc">
+          <p>
+            At Migrasia, I hold a key leadership role with diverse
+            responsibilities, including leading investigation and case
+            management projects, managing social media presence, and overseeing
+            client intake and support. My duties also include coordinating
+            between social media support and other teams to ensure alignment
+            across the organization. I focus on strategic planning, risk
+            management, and quality control in all areas, working
+            collaboratively to enhance Migrasia's reach, impact, and efficiency,
+            and contributing to a work environment that aligns with the
+            company's mission and values.
+          </p>
+        </div>
 
         <div className="btn">
           <button>
