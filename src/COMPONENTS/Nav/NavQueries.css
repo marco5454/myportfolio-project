@@ -14,7 +14,51 @@
 
   .right-info {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid yellow;
+  }
+
+  .right-info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .right-info ul li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  .left-info h1 {
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+
+  .left-info h3 {
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 480px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071952;
+  }
+
+  .left-info {
+    display: none;
+  }
+
+  .right-info {
+    display: flex;
+    justify-content: center;
     width: 100%;
     border: 1px solid yellow;
   }
