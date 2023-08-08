@@ -12,22 +12,22 @@ const Footer = () => {
       <div className="logos">
         <ul>
           <li>
-            <a href="/#">
+            <a href="/">
               <img src={email} alt="email" />
             </a>
           </li>
           <li>
-            <a href="/#">
+            <a href="/">
               <img src={linkedin} alt="linkedin" />
             </a>
           </li>
           <li>
-            <a href="/#">
+            <a href="/">
               <img src={fb} alt="fb" />
             </a>
           </li>
           <li>
-            <a href="/#">
+            <a href="/">
               <img src={phone} alt="phone" />
             </a>
           </li>

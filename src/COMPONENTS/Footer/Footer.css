@@ -32,9 +32,14 @@ a {
   list-style: none;
 }
 
-.footer-wrapper .logos ul li:hover {
-  width: 30px;
-  height: 30px;
+.footer-wrapper .logos ul li a img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-wrapper .logos ul li a img:hover {
+  width: 45px;
+  height: 45px;
 }
 
 .footer-wrapper .nav {

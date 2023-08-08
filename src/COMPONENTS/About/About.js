@@ -7,7 +7,7 @@ const Header2 = () => {
     <div className="about-me-wrapper">
       <div className="title">
         <h1>
-          This is <span>me</span>
+          This is &nbsp;<span>me</span>
         </h1>
       </div>
 

@@ -7,3 +7,43 @@
     width: 70%;
   }
 }
+
+@media (min-width: 480px) {
+  .footer-wrapper .logos {
+    width: 50%;
+  }
+
+  .footer-wrapper .nav {
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-wrapper .logos {
+    width: 30%;
+  }
+
+  .footer-wrapper .nav {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-wrapper .logos {
+    width: 20%;
+  }
+
+  .footer-wrapper .nav {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-wrapper .logos {
+    width: 15%;
+  }
+
+  .footer-wrapper .nav {
+    width: 18%;
+  }
+}

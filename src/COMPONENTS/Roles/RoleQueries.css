@@ -40,7 +40,7 @@
 @media (min-width: 480px) {
   .role-wrapper {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -58,12 +58,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    width: 90%;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .role-wrapper .my-roles-desc .role-desc {
+  }
+
+  .role-wrapper .my-roles-desc .btn {
   }
 
   .role-wrapper .my-roles-desc .overall-role h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 30px;
     text-align: justify;
   }
@@ -73,6 +79,127 @@
   }
 
   .role-wrapper .my-roles-desc p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .role-wrapper {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #97feed;
+  }
+
+  .role-wrapper .image {
+    display: none;
+  }
+
+  .role-wrapper .my-roles-desc .overall-role {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .role-wrapper .my-roles-desc .overall-role h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .role-wrapper .my-roles-desc {
+    width: 90%;
+  }
+
+  .role-wrapper .my-roles-desc p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .role-wrapper {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #97feed;
+  }
+
+  .role-wrapper .image {
+    display: none;
+  }
+
+  .role-wrapper .my-roles-desc .overall-role {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .role-wrapper .my-roles-desc .overall-role h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .role-wrapper .my-roles-desc {
+    width: 70%;
+  }
+
+  .role-wrapper .my-roles-desc p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .role-wrapper {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #97feed;
+  }
+
+  .role-wrapper .image {
+    display: none;
+  }
+
+  .role-wrapper .my-roles-desc .overall-role {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .role-wrapper .my-roles-desc .overall-role h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+
+  .role-wrapper .my-roles-desc {
+    width: 65%;
+  }
+
+  .role-wrapper .my-roles-desc p {
+    font-size: 1.2rem;
   }
 }
